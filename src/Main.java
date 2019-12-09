@@ -11,10 +11,10 @@ public class Main {
         WorkshopImpl workshop4 = new WorkshopImpl("Tomas", "psu", 900, 80);
         WorkshopImpl workshop5 = new WorkshopImpl("Paulius", "hdd", 2000, 50);
         WorkshopImpl workshop6 = new WorkshopImpl("Justas", "ram", 400, 30);
-        WorkshopImpl workshop7 = new WorkshopImpl("Dovydas", "ram", 2200, 30);
-        WorkshopImpl workshop8 = new WorkshopImpl("Antanas", "hdd", 2300, 50);
-        WorkshopImpl workshop9 = new WorkshopImpl("Aurimas", "gpu", 600, 350);
-        WorkshopImpl workshop10 = new WorkshopImpl("Domantas", "cpu", 1500, 250);
+        WorkshopImpl workshop7 = new WorkshopImpl("Dovydas", "cpu fan", 2200, 15);
+        WorkshopImpl workshop8 = new WorkshopImpl("Antanas", "water cooling", 2300, 170);
+        WorkshopImpl workshop9 = new WorkshopImpl("Aurimas", "case", 600, 90);
+        WorkshopImpl workshop10 = new WorkshopImpl("Domantas", "keyboard", 1500, 90);
 
         ArrayList<WorkshopImpl> workshops = new ArrayList<>();
         workshops.add(workshop1);
